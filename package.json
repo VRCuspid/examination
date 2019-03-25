@@ -1,0 +1,58 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "better-npm-run dev",
+    "prop": "better-npm-run prop"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "webpack-dev-server --config webpackConfig/webpack.dev.js",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "prop": {
+      "command": "webpack --config webpackConfig/webpack.prop.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^3.15.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "better-npm-run": "^0.1.1",
+    "codemirror": "^5.45.0",
+    "css-loader": "^2.1.1",
+    "dva": "^2.4.1",
+    "dva-loading": "^2.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "markdown-it": "^8.4.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.8.4",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^16.8.4",
+    "react-hot-loader": "^4.8.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "merge": "^1.2.1",
+    "style-loader": "^0.23.1"
+  }
+}

@@ -1,0 +1,36 @@
+.eachQusetion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.questionSem{
+    width: 450px;
+    height: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.questionIndexTitle{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.questionInfo{
+    line-height: 34px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.questionAns{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 20px;
+    
+}
+.questionAnsContent{
+    flex: 1;
+}
